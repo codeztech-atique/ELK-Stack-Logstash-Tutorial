@@ -2,6 +2,7 @@ Official Web Link https://www.elastic.co/guide/en/logstash/7.3/configuration.htm
 Dataset Link  - https://www.kaggle.com/
 
 If you want to index file logstash to mongodb that also you can do that
+ 
  output {
     mongodb {
         hosts => "localhost:9200"
